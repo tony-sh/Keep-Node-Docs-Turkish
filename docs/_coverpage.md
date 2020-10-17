@@ -14,3 +14,12 @@
 
 [GitHub](https://github.com/Estebank97/Keep-Node-Docs/)
 [Get Started](basics/start.md)
+
+[:uk:](https://estebank97.github.io/Keep-Node-Docs/#/)
+[:ru:](https://tony-sh.github.io/Keep-Node-Docs-Russia/#/)
+[:it:](https://tony-sh.github.io/Keep-Node-Docs-Italian/#/)
+[:de:](https://tony-sh.github.io/Keep-Node-Docs-German/#/)
+[:fr:](https://tony-sh.github.io/Keep-Node-Docs-French/#/)
+[:cn:](https://tony-sh.github.io/Keep-Node-Docs-Chinese/#/)
+[:indonesia:](https://tony-sh.github.io/Keep-Node-Docs-Indonesia/#/)
+[:tr:](https://tony-sh.github.io/Keep-Node-Docs-Turkish/#/)
