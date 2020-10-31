@@ -1,27 +1,27 @@
-
-![Intro](/assets/images/keepdocgraf.jpg)
-
-
-# Getting Started
-In this guide, you'll find all the information you need to stake on the Keep Network and start earning rewards.
-
-## Basic Description - tl;dr
-The Keep Network's native token, a KEEP, powers the network and undergirds all the apps that are and will be built on it. Anyone with KEEP tokens can stake them, setting them aside as collateral for Keep Network operations.
-
-Staked tokens are delegated by a KEEP token holder to an operator address, who performs work on the network. This work contribution is rewarded, but if an operator misbehaves and doesn't follow their operator contract, their collateral can be taken away (stake slashing) as punishment.
+! [Giriş] (/ assets / images / keepdocgraf.jpg)
 
 
-## Contents
+# Başta
+Bu kılavuzda, Keep Network çalışanı olmak ve ödül kazanmaya başlamak için ihtiyacınız olan tüm bilgileri bulacaksınız.
 
-- [Introduction](basics/intro.md) : Intro and context to Keep and tBTC.
-- [Key Reasons for Staking in Keep Network:](Reasons/reasons.md) Understand why it is meaningful to stake in Keep Network.
-- [Comparison with Other Alternatives:](comparison/comparesimilar.md) Compare Keep Staking with other staking alternatives currently available in crypto.
-- [Staking Documentation:](stakingdoc/keep101.md) Official Keep Team's documentation about staking. 
-- [Staking Options:](stakingdoc/stakingoptions.md) With staking partners or on your own node running on a server.
-- [Node Operation:](Node-Operation/intro-operation.md) Deploy, Manage, Troubleshoot your own node.
-- Keep Token Dashboard: Token Dashboard official user guide.
+## Genel açıklama - tl; dr
+KEEP, Keep Network'ün ana belirtecidir. Web'deki tüm uygulamalar bunun üzerine inşa edilir veya kurulacaktır. Herhangi bir KEEP token sahibi, Keep Network'ün işleyişini sağlamak için bunları teminat olarak ödeyebilir.
+
+Takılı kalan belirteçler, KEEP'in sahibi tarafından operatörün adresine devredilir ve o da ağ üzerinde çalışma gerçekleştirir. Bu çalışma ödüllendirilir, ancak operatör dürüst olmayan bir şekilde davranırsa ve yükümlülüklerini yerine getirmezse, o zaman tüm delege edilmiş tokenlar bir ceza (kesme) olarak alınabilir.
+
+
+## İçindekiler
+
+- [Giriş:] (basics / intro.md): Ağı ve tBTC'yi Korumaya Giriş.
+- [Keep Network'te stake etmenin ana nedenleri:] (Reasons / reason.md) Keep Network'te bahis oynamanın neden mantıklı olduğunu anlayın.
+- [Alternatiflerle karşılaştırma:] (karşılaştırma / karşılaştırma.md) Keep Staking'i şu anda kripto para biriminde mevcut olan alternatiflerle karşılaştırın.
+- [Staking belgeleri:] (stakingdoc / keep101.md) Takımın stake etme hakkındaki resmi belgelerini saklayın.
+- [Staking seçenekleri:] (stakingdoc / stakingoptions.md) Ortaklarla veya kendi sunucunuzda (düğüm).
+- [Düğüm çeşitleri:] (Node-Operation / intro-operation.md) Kendi düğümünüzde başlatın, yönetin, sorun giderin.
+- https://dashboard.keep.network/ Resmi Keep Network panosu.
 
 ---
-`Sourced from Keep Team's official documentation and edited & completed by community.`[Source](https://keep-network.gitbook.io/staking-documentation/)
+Topluluk tarafından düzenlenen ve eklenen resmi Keep Team belgelerinden kaynak. '[Kaynak] (https://keep-network.gitbook.io/staking-documentation/)'
 
-`Contributors: Ramaruro, EstebanK`
+Yazarlar: Ramaruro, EstebanK`
+`Çeviri: nadyakriy`
