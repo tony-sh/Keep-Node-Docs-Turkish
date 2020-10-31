@@ -1,78 +1,78 @@
-# Strong Return on Investment (ROI)
-There are two main phases for generating strong returns while operating Keep Network Nodes:
-* **Network Bootstrapping with Subsidies** 
-* **Network in full Production**
+# Yüksek yatırım getirisi (YG)
+Keep Network düğümleriyle çalışırken yüksek kar elde etmenin iki ana aşaması vardır:
+* ** Sübvansiyonlarla ağdan indirme **
+* ** Tam üretimde ağ **
 
 
-## Network Bootstrapping with Subsidies
-There is a strong [staking reward subsidy](https://keep-network.gitbook.io/staking-documentation/keep-network-staking/staking-reward-subsidy#keep-holders-stakedrop-subsidy) for early participants that help bootstrap the Network:
+Sübvansiyonlarla ## ağdan indirme
+Ağın başlatılmasına yardımcı olan katılımcılar için yüksek [stake sübvansiyonları] (https://keep-network.gitbook.io/staking-documentation/keep-network-staking/staking-reward-subsidy#keep-holder-stakedrop-subsidy) vardır erken aşama:
 
-|**Total KEEP [Supply](https://etherscan.io/token/0x85eee30c52b0b379b046fb0f85f4f3dc3009afec)**|**1,000,000,000 KEEP**|
+| ** Toplam TUTMA [Stok] (https://etherscan.io/token/0x85eee30c52b0b379b046fb0f85f4f3dc3009afec) ** | ** 1.000.000.000 TUT ** |
 | --- | --- |
-| **StakeDrop Subsidies for Random Beacon**|**20,000,000 KEEP (2%)**|
-| **StakeDrop Subsidies for ECDSA**|**180,000,000 KEEP (18%)**|
+| ** Random Beacon için Steak Drop Sübvansiyonları ** | ** 20.000.000 TUTMA (% 2) ** |
+| ** ECDSA için biftek sübvansiyonları ** | ** 180.000.000 TUTMA (% 18) ** |
 
 
-The Subsidies will be distributed following the schedule shown below.
-<p align="center">
-  <img width="600" src="https://user-images.githubusercontent.com/68167410/91521843-45c21900-e8be-11ea-83cc-0d26b0a42fc4.png">
+Sübvansiyonlar aşağıda gösterilen programa göre dağıtılacaktır.
+<p align = "center">
+  <img width = "600" src = "https://user-images.githubusercontent.com/68167410/91521843-45c21900-e8be-11ea-83cc-0d26b0a42fc4.png">
 </p>
 
-> The mechanics of rewards distribution are further explained in this [article](https://medium.com/@ben_longstaff/crypto-yield-farmers-take-note-understanding-the-tbtc-and-keep-network-rewards-mechanics-6042e9dc5d97) by Ben Longstaff, and the distribution contract code can be found [here](https://github.com/keep-network/keep-core/pull/1863).
+> Sübvansiyonları dağıtma mekanizması bu [makale (İngilizce)] (https://medium.com/@ben_longstaff/crypto-yield-farmers-take-note-understanding-the-tbtc-and-keep-network-rewards- 'de açıklanmıştır. mechanics-6042e9dc5d97), Ben Longstaff ve dağıtım sözleşmesi kodu [burada] bulunabilir (https://github.com/keep-network/keep-core/pull/1863).
 
-### The estimated Subsidy Rewards ROI are as follows:
+### Sübvansiyonların tahmini YG'si:
 
-**Random Beacon Node**
+** Rastgele İşaret düğümü **
 
-To participate as a Random Beacon Node Operator, your Minimum Investment is 90,000 KEEP; it is a significant investment and this will reduce the number of participants for this operation. 
+Katılımcılar için Random Beacon düğümünün operatörü olarak minimum yatırım 90,000 KEEP'tir; bu önemli bir yatırımdır ve katılımcı sayısını azaltacaktır.
 
-We define two scenarios, depending on the number of Nodes that participate. It is difficult to estimate how many nodes will be on Mainnet, but based on the high initial investement, it is likely that the actual number of participants fall somewhere in between 10 and 200 Nodes.
-Note that the investment is in KEEP and the rewards are in KEEP.
+Katılan düğümlerin sayısına bağlı olarak iki senaryo görüyoruz. Mainnet'te kaç düğüm olacağını tahmin etmek zordur, ancak yüksek başlangıç ​​yatırımı göz önüne alındığında, gerçek katılımcı sayısının 10 ile 200 arasında olması muhtemeldir.
+KEEP'e yatırım yapıldığını ve ödüllerin de KEEP'te olduğunu lütfen unutmayın.
 
-<p align="center">
-  <img width="800" src="https://user-images.githubusercontent.com/68167410/91620068-83718100-e954-11ea-99f9-6e47559886ad.png">
+<p align = "center">
+  <img width = "800" src = "https://user-images.githubusercontent.com/68167410/91620068-83718100-e954-11ea-99f9-6e47559886ad.png">
 </p>
 
-**ECDSA Node**
+** ECDSA düğümü **
 
-To participate as an ECDSA Node Operator, the Minimum Investment should be 150% of the smallest tBTC Minting Unit. Bigger stakes have a higher chance of being selected for Minting. The barrier to entry is much lower as with the Random Beacon Node and there should be a bigger number of Nodes that participate.
+ECDSA düğümünün operatörü olarak katılmak için, minimum yatırım minimum tBTC nane biriminin% 150'si olmalıdır. Giriş engeli, Random Beacon'dakinden çok daha düşüktür ve katılan daha fazla düğüm olmalıdır.
 
-Note that the investment is in ETH or in KEEP and the rewards are in KEEP, so the exchange rate between ETH and KEEP plays into the equation.
-It is unclear how the subsidies are actually being distributed in terms of the minting/burning activity. Higher stakes are more likely to be selected. The scenarios below assume equal stakes per Node which will not be the case for sure, so this is just a guidance of what rewards could be.
+Aşağıdaki senaryolar, düğümlerdeki bahislerin eşit olduğunu varsayar, bu her zaman doğru değildir, bu nedenle bu, ödüllerin ne olabileceğine dair bir rehberdir.
 
-The 100 tBTC Cap will be lifted once the network is up and running for a prudent time and no major issues are seen. After that, to earn rewards, it probably will be important to increase the Stake to have more chances of minting tBTC.
+100 tBTC limiti, ağ bir süre çalışır durumda kalır kalmaz kaldırılacak ve bu süre zarfında hiçbir büyük sorun fark edilmeyecektir. Bundan sonra, ödülü almak için, daha iyi bir tBTC nane şansına sahip olmak için oranı artırmak muhtemelen önemli olacaktır.
 
-<p align="center">
-  <img width="800" src="https://user-images.githubusercontent.com/68167410/91620194-d64b3880-e954-11ea-9c7a-c27717f0d711.png">
+<p align = "center">
+  <img width = "800" src = "https://user-images.githubusercontent.com/68167410/91620194-d64b3880-e954-11ea-9c7a-c27717f0d711.png">
 </p>
 
-## Network in full Production
-Fees generated for Minting/Burning while operating the Nodes will lead to an attractive return once the overall volume of transfers achieves full Production levels (up to Market Demand)
+## Tam üretim ağı
+Düğümler çalışırken basım için oluşturulan komisyonlar, toplam işlem hacmi tam üretim seviyesine ulaştığında (pazar talebinden önce) karla sonuçlanacaktır.
 
-### Random Beacon Node ROI in Full Production
+Tam üretimde ### Random Beacon ROI düğümü
 
-Below are the results for a Random Beacon Node Operator in several scenarios. The results are attractive if there is high demand for the service.
+Birden çok senaryodaki Random Beacon düğüm operatörünün sonuçları aşağıdadır. Hizmet için yüksek bir talep varsa sonuçlar olumludur.
 
-It is still to be defined what the actual Fee for the Service will be. In the [Random Beacon Staking Rewards](https://keep-network.gitbook.io/staking-documentation/keep-network-staking/keep-and-tbtc-staking-rewards#random-beacon-rewards) document it indicates that Fees could be between $10 and $50 per transaction, so we use both scenarios.
-<p align="center">
-  <img width="800" src="https://user-images.githubusercontent.com/68167410/91620497-c4b66080-e955-11ea-9025-21ca3a32bdf7.png">
+Gerçek servis ücretinin ne olacağı belirlenecek. [Random Beacon Staking Rewards] (https://keep-network.gitbook.io/staking-documentation/keep-network-staking/keep-and-tbtc-staking-rewards#random-beacon-rewards) belge ücretler işlem başına 10 ila 50 ABD doları arasında değişebilir, bu nedenle her iki senaryoyu da kullanırız.
+<p align = "center">
+  <img width = "800" src = "https://user-images.githubusercontent.com/68167410/91620497-c4b66080-e955-11ea-9025-21ca3a32bdf7.png">
 </p>
 
-### ECDSA Node ROI in Full Production
+Tam üretimde ### ECDSA ROI düğümü
 
-Here are the results for an ECDSA Node Operator in several scenarios. It is still to be defined what the actual Fee for the Service will be. In the [ECDSA Node Staking Rewards](https://keep-network.gitbook.io/staking-documentation/keep-network-staking/keep-and-tbtc-staking-rewards#t-ecdsa-tbtc-rewards) document it indicates that Fees start at 5bps (Basis Points), that means 0.05% of the Value Transferred.
+Çoklu Senaryolarda ECDSA Düğüm Operatörü Sonuçları. Hala Hizmetin gerçek Ücretinin ne olacağı tanımlanmalıdır. [ECDSA Node Staking Rewards] (https://keep-network.gitbook.io/staking-documentation/keep-network-staking/keep-and-tbtc-staking-rewards#t-ecdsa-tbtc-rewards) komisyonlar 5bps'den (baz puan) başlar, bu da aktarılan değerin% 0,05'i anlamına gelir.
 
-The results are less attractive due to the following facts:
+Aşağıdaki gerçeklerden dolayı sonuçlar daha az çekici:
 
-* The high collateral requirements (150% of the Value Transferred)
-* A tBTC minted can be held for up to 6 months, with no accrual of interest during that time. 
+* Yüksek teminat gereksinimleri (transfer edilen değerin% 150'si)
+* Maden çıkarılan tBTC, faizsiz 6 aya kadar saklanabilir.
 
-<p align="center">
-  <img width="800" src="https://user-images.githubusercontent.com/68167410/91621001-317e2a80-e957-11ea-8200-a6a1e0a553d7.png">
+<p align = "center">
+  <img width = "800" src = "https://user-images.githubusercontent.com/68167410/91621001-317e2a80-e957-11ea-8200-a6a1e0a553d7.png">
 </p>
 
-!> **Note for Keep Team:** We suggest to add a fee (interest) that accrues linearly with time for the investment, in addition to the fees for minting and burning, to improve return for stakers.
 
 ---
-`Written & assembled by Keep Community.`
-`Contributors: Ramaruro, EstebanK`
+Topluluk tarafından düzenlenen ve eklenen resmi Keep Team belgelerinden kaynak. '[Kaynak] (https://keep-network.gitbook.io/staking-documentation/)'
+
+Yazarlar: Ramaruro, EstebanK`
+`Çeviri: nadyakriy`
