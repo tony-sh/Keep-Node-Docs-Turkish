@@ -1,79 +1,81 @@
-# Introduction to tBTC & Keep Network 
+# TBTC'ye Giriş ve Ağı Koru
 
 
 ## DeFi
-Decentralized Finance (DeFi) is a system of open, permissionless and interwoven financial services and products built and delivered mainly on Etherum. As of July 2020, almost $4Billion is currently deployed across all Defi applications offering loans, stable coins, derivatives, exchanges all through decentralized smart contracts. This volume is expected to grow significantly.
+Merkezi Olmayan Finans (DeFi), Ethereum ağında oluşturulan ve işletilen açık ve birbirine bağlı finansal hizmetler ve ürünler sistemidir. Temmuz 2020'ye kadar, merkezi olmayan akıllı sözleşmeler yoluyla krediler, belirteçler, türevler, borsalar sunan tüm DeFi uygulamalarında yaklaşık 4 milyar dolar yer alıyor. Bu hacim büyümeye devam ediyor.
 
-DeFi protocols are modular so they can stack on top of each other to build an increasingly complexer system of interoperating parts. Since DeFi products are code distributed across a decentralized blockchain like Ethereum, they can never be shut down or prohibited to those who want to use them. Thus anyone with an internet connection is able to use lending services, complex financial products, stable stores of value, and investment and trading opportunities on DeFi.
+DeFi protokolleri, birbirleriyle etkileşime girerek giderek daha karmaşık bir sistem oluşturan modüler bir yapıya sahiptir. DeFi ürünleri, Ethereum gibi bir blockchain ağında bulunan kodlar olduğundan, bunları kullanmak isteyen hiç kimseden asla devre dışı bırakılamaz veya gizlenemez. Böylece, İnternet erişimi olan herkes, DeFi'de borç verme, kapsamlı finansal ürünler, tasarruflar, yatırım ve ticaret fırsatlarından yararlanabilir.
 
-## Purpose of the tBTC System
-Despite the exponential growth of the projects in Defi and Ethereum, Bitcoin still accounts for two thirds of the world’s total value in cryptocurrencies.
+## Niyetler tBTC
+DeFi ve Ethereum'daki projelerin katlanarak büyümesine rağmen, bitcoin hala dünyadaki toplam kripto para birimi hacminin üçte ikisini oluşturuyor.
 
-As Ilias Hatzis introduces tBTC in his [story](https://medium.com/@iliashatzis/could-bitcoin-on-defi-displace-banks-yes-4c0ad99f0da4) :
-> “Bitcoin DeFi has been a dream for Bitcoiners. Maybe the dream is over and new tBTC project will bring Bitcoin to the DeFi world.
-> Bitcoin can greatly transform DeFi and that is exactly what the Keep team, the creators of the Keep protocol understands.” 
+Ilyas Khatsis'in [blogunda] (https://medium.com/@iliashatzis/could-bitcoin-on-defi-displace-banks-yes-4c0ad99f0da4) tBTC'yi tanıttığı gibi:
+> "Bitcoin DeFi, bitcoin meraklılarının hayalidir. Hayal kurabiliriz ve yeni tBTC projesi Bitcoin'i DeFi dünyasına getirecek.
+> Bitcoin, DeFi'yi çarpıcı bir şekilde dönüştürme potansiyeline sahip ve Keep ekibi bunu anlıyor. "
 
-Keep Team launched tBTC, which is a decentralized, trustless and insured custody system for Bitcoin that creates TBTC Ethereum ERC-20 tokens, with a 1:1 BTC supply peg. Bitcoin holders who want to spend their BTC on Ethereum and DeFi don’t have to trust custodians, aka signers, because signers have to deposit a bond higher then the value of the BTC they hold in custody. 
+Keep ekibi, BTC'ye 1: 1 oranla TBTC Ethereum ERC-20 jetonlarındaki bitcoin'ler için merkezi olmayan, güvenli ve sigortalı bir depolama sistemi olan tBTC'yi başlattı. BTC'lerini Ethereum ve DeFi üzerinde harcamak isteyen Bitcoin sahipleri, emanetçilere (imzalayanlar) güvenmemelidir çünkü imzalayanların gözaltında tuttukları BTC'nin değerini aşan bir teminat vermeleri gerekir.
 
-?> You'll want to see this excelent [tBTC Explanatory Video](https://www.youtube.com/watch?v=cfmQiArg3B8) by Artem#4718 on Discord.
+?> Discord'daki Artem # 4718'den bu konuda mükemmel [video] (https://www.youtube.com/watch?v=cfmQiArg3B8).
 
-Signers are randomly chosen of a larger network fo signing nodes and operate in groups fo three. The bond ensures that signers behavior in the system remains honest, at risk of losing their bond in case of fraud or undercollateralization.  If signers were to move funds unauthorized, leaving more TBTC outstanding than BTC in custody, the system would confiscate their bond to buy and burn an equivalent of TBTC from the market, bringing the amount of TBTC and BTC in custody in equilibrium.
+İmzalayanlar, daha geniş imzalayanlar ağından rastgele seçilir ve üçlü gruplar halinde çalışır. Teminat, dolandırıcılık veya yetersiz teminat durumunda teminatlarını kaybetme riski ile sistemdeki imza sahiplerinin davranışlarının adil kalmasını sağlar. İmzalayanlar fonları yetkisiz olarak hareket ettirir ve BTC'den daha fazla TBTC'yi gözaltında bırakırsa, sistem, TBTC eşdeğerini piyasadan satın almak ve yok etmek için teminatlarına el koyacak ve TBTC ve BTC varlıklarını dengeye getirecektir.
 
-<p align="center">
-  <img width="619" alt="Beacon" src="https://user-images.githubusercontent.com/68087535/88100735-57075f80-cb73-11ea-996f-ec2d9590b073.png">
+<p align = "center">
+  <img width = "619" alt = "İşaret" src = "https://user-images.githubusercontent.com/68087535/88100735-57075f80-cb73-11ea-996f-ec2d9590b073.png">
 </p>
 
 
-## Keep Network
+## Ağı Koru
 
-tBTC is an application on [Keep Network](https://keep.network), for which Ben Longstaff gives us an excellent [description](https://medium.com/@ben_longstaff/secure-multi-party-computation-smpc-explained-visually-ecde155fc7c0):
+tBTC, Ben Longstaff'ın harika bir [açıklama] (https://medium.com/@ben_longstaff/secure-multi-party-computation) verdiği [Ağı Koru] (https://keep.network) adresindeki bir uygulamadır. -smpc-görsel olarak açıklandı-ecde155fc7c0):
 
-> “The Keep Network intends to become the default privacy solution for storing small, sensitive packages of data securely off-chain, and in doing so, both dramatically expand the functionality of smart contracts and the mainstream uptake of blockchain technology.”
+> "Keep Network, verileri ağ dışında güvenli bir şekilde depolamak için bir gizlilik çözümü haline gelirken, akıllı sözleşmelerin işlevselliğini ve blok zinciri teknolojisinin kitlesel olarak benimsenmesini önemli ölçüde genişletmeyi amaçlıyor."
 
-The Keep Network is a privacy solution where keeps hold distributed small amounts of data, such as a private key, and support interoperability across chains. Keeps are smart contracts that allow other smart contracts to interact with private data in a secure way. They are built on ECDSA, an algorithm supported by many of the top blockchains, and facilitate decentralized group signing with multi-party threshold signatures.
+Keep Network, özel anahtar gibi küçük miktarlarda dağıtılmış veriyi depolayan ve zincirler arası iletişimi sürdüren bir gizlilik çözümüdür. Keeps, diğer akıllı sözleşmelerin kişisel verilerle güvenli bir şekilde etkileşime girmesine izin veren akıllı sözleşmelerdir. Önde gelen birçok blok zinciri tarafından desteklenen ECDSA algoritması üzerine inşa edilmişlerdir ve merkezi olmayan grupların çok partili eşik imzaları ile imzalanmasını kolaylaştırırlar.
 
-The Keep Network is a [Messari](https://messari.io/article/announcement-messari-adds-11-new-disclosures-registry-participants-surpassing-50-members) Disclosure Registrant Participant. By joining this Registry these projects have committed to bringing a higher level of transparency to the cryptoasset space through ongoing disclosures.
+Ağı [Messari] adresinde tutun (https://messari.io/article/announcement-messari-adds-11-new-disclosures-registry-participants-surpassing-50-members) açık kayıtlı bir üyedir. Bu deftere katılarak, bu projeler kendilerini sürekli açıklama yoluyla kripto varlıkların şeffaflık seviyesini artırmaya adadılar.
 
-This [Keeps Grants Explorer](https://explorer.keep-grants.info/) from MutedTommy#3155 (in Discord) keeps track of the Keep token Grants distributed so far.
+[Keeps Grants Explorer] (https://explorer.keep-grants.info/), MutedTommy # 3155 (Discord'da), KEEP'in tahsis edilen bağışlarını belirteçler halinde takip eder.
 
-### t-ECDSA Node
+### t-ECDSA düğümü
 
-T-ECDSA keeps secure the transactions with multiple individual key shares, held independently by multiple signers. Decentralized signing is performed with sMPC ( secure multi-party computation) for computation on private key shares without revealing them. Responsibility for signatures is divided, requiring a threshold number of participants to create a signature using their key shares.
+T-ECDSA keep, birden çok imzalayan tarafından tutulan birden çok özel anahtarla işlem güvenliği sağlar. Merkezi olmayan imza, paylaşılan anahtarları ifşa etmeden hesaplamak için sMPC (Güvenli Çok Taraflı Hesaplama) kullanılarak gerçekleştirilir. İmzalarla ilgili sorumluluk bölünmüş durumda ve imza oluşturmak için belirli sayıda katılımcı gerekiyor.
 
-In general it works like this: an Ethereum smart contract asks the Keep Network to open a new t-ECDSA keep. This keep is backed by a group of randomly selected signers from the sMPC cluster, the larger network of signing nodes. Those signers use t-ECDSA to generate the key and provide a signature. The signers can sign anything, including blockchain transactions. The Ethereum smart contract can ask the keep to sign a transaction on any blockchain-based on ECDSA, Bitcoin is just one of them.
+Genel olarak, şu şekilde çalışır: Ethereum akıllı sözleşmesi, Keep Network'ten yeni bir t-ECDSA Keep açmasını ister. Bu mağaza, daha büyük bir imzalayanlar ağı olan sMPC kümesinden rastgele seçilen bir grup imzalayan tarafından tutulur. Bu imzalayanlar, bir anahtar oluşturmak ve bir imza sağlamak için t-ECDSA'yı kullanır. İmzalayanlar, blockchain işlemleri dahil her şeyi imzalayabilir. Bir Ethereum akıllı sözleşmesi, herhangi bir ECDSA tabanlı blok zincirinde bir işlem imzalamayı isteyebilir, Bitcoin bunlardan sadece biridir.
 
-This mechanism is trustless because signers are independent; they’re people and organizations running sMPC cluster nodes. 
+Bu mekanizma güvenilirdir çünkü imzalayanlar bağımsızdır; bunlar bir sMPC kümesiyle bir düğüm başlatan kişi ve kuruluşlardır.
 
-<p align="center">
-  <img width="319" alt="Beacon" src="https://user-images.githubusercontent.com/68167410/88845610-05ca2200-d1aa-11ea-9d8b-400516fed25c.png">
+<p align = "center">
+  <img width = "319" alt = "İşaret" src = "https://user-images.githubusercontent.com/68167410/88845610-05ca2200-d1aa-11ea-9d8b-400516fed25c.png">
 </p>
 
-### Random Beacon Node
+### Rastgele İşaret düğümü
 
-Random Beacon is the other part of the network: a decentralized random selection tool for selecting signers from a pool in a cryptographically secure and decentralized way. This beacon takes the form of a BLS Threshold Relay and cannot be gamed or manipulated. It is a trusted source of randomness for the process of trustless group election. No one knows who the signers will be – including the signers themselves – until the moment they are selected by the Random Beacon. This ensures that signers are not able to collude to steal funds or attack the network, and it’s why the true randomness supplied by the beacon is so important.
+Rastgele İşaret, ağın başka bir parçasıdır: İmzalayanları bir şekilde rastgele seçmek için merkezi olmayan bir araçtır. Bu işaret, BLSThreshold Relay'dir ve kontrol edilemez veya manipüle edilemez. Grup seçimi için güvenilir bir rastgelelik kaynağıdır. Rastgele bir işaretçi tarafından seçilene kadar, imzalayanların kendileri de dahil olmak üzere imzalayanların kim olacağını kimse bilemez. Bu, imzalayanların fonları çalmak veya ağa saldırmak için işbirliği yapamamasını sağlar, bu nedenle işaretin sağladığı gerçek rastgelelik çok önemlidir.
 
-**The Random Beacon and t-ECDSA Keeps are the core technology of the network. Random Beacon operator and t-ECDSA client/operator, the signer, are the nodes which we operate and where we stake.**
+** Random Beacon ve t-ECDSA Keep ağında çekirdek tutar. **
 
 
 
 ***
 
-**Sources and further information :**
-- [Could Bitcoin on DeFi displace banks? Yes](https://medium.com/@iliashatzis/could-bitcoin-on-defi-displace-banks-yes-4c0ad99f0da4) by Ilias Hatzis
-- [Bridging Bitcoin and Ethereum](https://blog.keep.network/bridging-bitcoin-and-ethereum-b2f9923630a7) from the Keep Network Blog
-- [Secure Multiparty Computation](https://medium.com/@ben_longstaff/secure-multi-party-computation-smpc-explained-visually-ecde155fc7c0) by Ben Longstaff
-- [Building Bridges between Blockchains with tECDSA keeps](https://blog.keep.network/building-bridges-between-blockchains-with-t-ecdsa-keeps-e58d6debb8fd) by Piotr Dyraga from the Keep Network Blog
-- [Staking Documentation](https://keep-network.gitbook.io/staking-documentation/) from the Keep Network Documentation
-- [tBTC Technical Overview](https://tbtc.network/developers/tbtc-technical-system-overview/) from the tBTC Website
-- [What's in a beacon](https://blog.keep.network/whats-in-a-beacon-12c34b0bc078) by Antonio Salazar Cardozo from the Keep Network Blog
-- [Why is Trusted Randomness So Important?](https://blog.keep.network/why-is-trusted-randomness-so-important-c22de1c1c5ee) by Antonio Salazar Cardozo from the Keep Network Blog
-- [Threshold ECDSA — Safer, more private multi-signatures](https://blog.keep.network/threshold-ecdsa-safer-more-private-multi-signatures-51153f3e9ed2) by Antonio Salazar Cardozo from the Keep Network Blog on Keep developer Piotr Dyraga’s presentation on threshold-ECDSA from San Francisco Blockchain Week 2018.
-- [Defi explained](https://decrypt.co/resources/defi-decentralized-finance-explained-guide-learn) by Decrypt.co
-- [What is Defi](https://defipulse.com/blog/what-is-defi/) by Defipulse
-- [Keep promo video](https://www.youtube.com/watch?v=h2IErqf-VrQ) by Lelka Bo in Discord Design Channel
-- [TBTC: A New Sidechain Design for Bitcoin](https://insights.deribit.com/market-research/a-new-sidechain-design-for-bitcoin/) by Su Zhu in Deribit Insights
-- Images are from SpaceWalker (Discord Design Channel), [Ilias Hatzis](https://medium.com/@iliashatzis) (from his story), Keep Team (Discord Design Channel).
+** Kaynaklar ve faydalı bilgiler: **
+- [DeFi üzerindeki Bitcoin bankaların yerini alabilir mi? Evet] (https://medium.com/@iliashatzis/could-bitcoin-on-defi-displace-banks-yes-4c0ad99f0da4), Ilias Hatzis tarafından
+- Keep Network Blog'dan [Bitcoin ve Ethereum Köprüleme] (https://blog.keep.network/bridging-bitcoin-and-ethereum-b2f9923630a7)
+- [Güvenli Çok Taraflı Hesaplama] (https://medium.com/@ben_longstaff/secure-multi-party-computation-smpc-explained-visually-ecde155fc7c0), Ben Longstaff
+- [tECDSA ile Blockchain'ler arasında Köprüler Kurmak] (https://blog.keep.network/building-bridges-between-blockchains-with-t-ecdsa-keeps-e58d6debb8fd) Keep Network Blog'dan Piotr Dyraga
+- Keep Network Documentation'dan [Staking Documentation] (https://keep-network.gitbook.io/staking-documentation/)
+- tBTC Web Sitesinden [tBTC Teknik Genel Bakış] (https://tbtc.network/developers/tbtc-technical-system-overview/)
+- [What's in a beacon] (https://blog.keep.network/whats-in-a-beacon-12c34b0bc078), Keep Network Blog'dan Antonio Salazar Cardozo tarafından
+- [Güvenilir Randomness Neden Bu Kadar Önemli?] (Https://blog.keep.network/why-is-trusted-randomness-so-important-c22de1c1c5ee), Keep Network Blog'dan Antonio Salazar Cardozo
+- [Threshold ECDSA - Daha güvenli, daha özel çoklu imzalar] (https://blog.keep.network/threshold-ecdsa-safer-more-private-multi-signatures-51153f3e9ed2), Antonio Salazar Cardozo, Keep Network Blog sayfasından Geliştirici Piotr Dyraga'nın 2018 San Francisco Blockchain Haftası'ndan eşik-ECDSA sunumuna devam edin.
+- [Defi açıkladı] (https://decrypt.co/resources/defi-decentralized-finance-explained-guide-learn), Decrypt.co tarafından
+- [Defi nedir] (https://defipulse.com/blog/what-is-defi/), Defipulse tarafından
+- Discord Design Channel'da Lelka Bo'dan [Tanıtım videosunu koruyun] (https://www.youtube.com/watch?v=h2IErqf-VrQ)
+- [TBTC: Bitcoin için Yeni Bir Yan Zincir Tasarımı] (https://insights.deribit.com/market-research/a-new-sidechain-design-for-bitcoin/), Deribit Insights'ta Su Zhu tarafından
+- Görüntüler SpaceWalker (Discord Tasarım Kanalı), [Ilias Hatzis] (https://medium.com/@iliashatzis) (hikayesinden), Keep Team (Discord Tasarım Kanalı) 'dan alınmıştır.
 
 ---
-`Written & assembled by Keep Community.`
-`Contributors: Ramaruro, EstebanK`
+Topluluk tarafından düzenlenen ve eklenen resmi Keep Team belgelerinden kaynak. '[Kaynak] (https://keep-network.gitbook.io/staking-documentation/)'
+
+Yazarlar: Ramaruro, EstebanK`
+`Çeviri: nadyakriy`
