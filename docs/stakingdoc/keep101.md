@@ -1,49 +1,48 @@
-# Keep Network 101
+# Ağı Tut 101
 
-The Keep Network is a privacy solution where "keeps" hold distributed small amounts of data, such as a private key. The Random Beacon and t-ECDSA Keeps are the core technology of the network.
+Keep Network, özel anahtar gibi dağıtılmış küçük miktarlarda veriyi "depolayan" bir gizlilik çözümüdür. Random Beacon ve t-ECDSA Keeps, web'in temel teknolojisidir.
 
-## What is a Keep?
-A keep is up to 1MB of encrypted storage that is distributed across one or more keep providers, or members. A keep provider is one economic entity in the Keep Network; they have a stake and must participate in a signing group as a single member. 
+## Keep nedir?
+Keep, bir veya daha fazla sağlayıcı veya katılımcı arasında paylaşılan 1MB'ye kadar şifreli depolama alanıdır. Keep Provider, Keep Ağındaki bir ekonomik varlıktır; bir hissesi vardır ve bir imzalama grubuna imzalayan olarak katılabilir
 
-The Keep Network's native token is KEEP. It powers the network and undergirds all the apps that are and will be built on it.
+KEEP, Keep Network'ün ana belirtecidir. Web'deki tüm uygulamalar bunun üzerine inşa edilir veya kurulacaktır.
 
-The Keep Network requires a trusted source of randomness for the process of trustless group election. Member selection for a keep is chosen at random. This trusted source of randomness takes the form of a BLS Threshold Relay, otherwise known as the Random Beacon.
+Keep Network, imzalama grubu oluşturma süreci için güvenilir bir rastgelelik kaynağına dayanır. İmza sahiplerinin seçimi rastgele. Bu güvenilir rastgelelik kaynağı, Rastgele İşaret olarak da adlandırılan BLS Eşik Rölesidir.
 
-## What is the Random Beacon?
-At the core of Keep’s solution is the ability to keep small amounts of data (such as a private key) actually private. This is why true randomness is so important. All parties would have to collude to know what a user is working on, and collusion becomes almost impossible when member selection is truly random.
+## Random Beacon nedir?
+Keep çözümü, küçük miktarlarda veriyi (örneğin, bir özel anahtar) gizli tutma yeteneğine dayanmaktadır. Gerçek rastgelelik bu yüzden çok önemlidir. Tüm taraflar, kullanıcının ne üzerinde çalıştığını bulmak için işbirliği yapmak zorunda kalacak ve katılımcıların seçimi gerçekten rastgele olduğunda gizli anlaşma neredeyse imkansız hale geliyor.
+Random Beacon, hem ağdaki hem de Ethereum zincirindeki saldırganlara dirençli, doğrulanabilir rastgelelik yaratmanın bir yoludur. İmzalayan grupları için üye tanımlamak için kullanılır.
 
-The Random Beacon is a way of generating verifiable randomness that is resistant to bad actors both in the relay network and on the anchoring blockchain, assumed here to be Ethereum. It is used to determine member selection for signing groups.
+> Teknik dokümantasyondan Random Beacon hakkında daha fazla bilgi edinin.
 
-> Read more about the Random Beacon in the technical documentation.
+Rastgele İşaret kullanılarak seçilene kadar imzalayanların kendileri de dahil olmak üzere imzalayanların kim olacağını kimse bilemez. Bu, imzalayanların para çalmak veya ağa saldırmak için işbirliği yapmamasını sağlar, bu nedenle işaretçi tarafından sağlanan gerçek rastgelelik çok önemlidir.
 
-No one knows who the signers will be – including the signers themselves – until the moment they are selected by the Random Beacon. This ensures that signers are not able to collude to steal funds or attack the network, and it’s why the true randomness supplied by the beacon is so important.
+Keep Network üzerine kurulu ilk uygulama olan tBTC'nin güvenilirliğini sağlamanın önemli bir yolu, karşı taraf riskini ortadan kaldırmaktır. TBTC'nin işlemleri güvenilir bir aracı olmadan işlemesine izin veren bir imza grubu sistemi kullanır. Bu nedenle, imzalayanın seçimi tBTC'nin düzgün çalışması ve t-ECDSA havuzlarının oluşturulması için çok önemlidir.
 
-A key way tBTC, the first application built on the Keep Network, ensures trustlessness is by addressing counterparty risk. It uses a system of signers’ groups that allows tBTC to process transactions without a trusted middleman. Signer selection is therefore essential to tBTC’s proper functioning and the creation of t-ECDSA Keeps.
+## t-ECDSA Keeps nedir?
+t-ECDSA keep, Keep Network üzerine kurulu ilk uygulama olan tBTC'nin arkasındaki teknolojidir.
 
-## What are t-ECDSA Keeps?
-t-ECDSA keeps are the underlying technology of tBTC, the first application built on the Keep Network.
+> Teknik dokümantasyonda tBTC hakkında daha fazla bilgi edinin.
 
-> Read more about tBTC in the technical documentation.
+SMPC ile uygulanan t-ECDSA tutma, bir dizi coğrafi olarak dağınık varlıklarla (imzalayanlar) işlem imzalayarak sözleşmelerin zincirler arasında veri alışverişi yapmasına izin verir. T-ECDSA, birden çok imzalayan tarafından bağımsız olarak depolanan birden çok ayrı özel anahtarla işlemleri güvence altına alır.
 
-Implemented with secure multi-party computation (sMPC), t-ECDSA keeps make it possible for contracts to communicate cross-chain by signing transactions between chains with a number of geographically distributed threshold signers. T-ECDSA keeps secure the transactions with multiple individual key shares, held independently by multiple signers. 
+Merkezi olmayan imzalama, herkese açık özel anahtarları ifşa etmeden hesaplamak için sMPC kullanılarak gerçekleştirilir. İmzalama sorumluluğu bölünmüştür ve belirli sayıda katılımcının anahtarlarını kullanarak bir imza oluşturması gerekir.
 
-Decentralized signing is performed with sMPC for computation on private key shares without revealing them. Responsibility for signatures is divided, requiring a threshold number of participants to create a signature using their key shares.
+### Diğer zincirler arası jeton planları hakkında bilgi almak ister misiniz?
+Diğer ağlara bir köprü kurmaya yönelik henüz kesin bir plan yok. Ancak Cross-Chain Group, Cosmos, Zcash ve Polkadot gibi kişilerle bu konuda görüşmelerde bulunuyor.
 
-### Curious about plans to build other cross-chain tokens? 
-There are no firm plans yet to build a bridge on other chains. However the Cross-Chain Group has had early conversations with chains like Cosmos, Zcash, and Polkadot on trustless bridge designs.
+## KEEP: Ağ jetonunu saklayın
+Keep Network'e üye olmak için KEEP tokenlerinin bakiyesi gereklidir. Üyeler, platform üzerinde çalışma yaparak ödül almaya hak kazanır. Yapıcı davranışı teşvik eden, verimliliği ve güveni teşvik eden ve Keep Network'ün kabulünü ve büyümesini teşvik eden önemli bir teşviktir.
 
-## KEEP: Keep Network Token
-A balance of KEEP tokens is required in order for someone to become a member of the Keep Network. Members are eligible to earn rewards by performing work on the platform. This is the key incentive that drives constructive behavior, facilitates efficiency and trust, and promotes the adoption and growth of the Keep network.
+KEEP, mülkiyeti ağdaki temel işlevleri gerçekleştirme hakkı veren çalışan bir belirteçtir. Token sahipleri, katılmaya uygun olmak için teminat olarak minimum miktarda KEEP delege etmelidir.
 
-KEEP is a work token — holding it confers the right to perform key functions on the network. Token holders must delegate a minimum amount of KEEP as collateral in order to be eligible. 
+Bir delegenin seçildiği çalışma miktarı, delege edilen KEEP'lerin sayısı ile orantılı olacaktır. Örneğin, 1000 KEEP'i delege eden bir kişi, zamanla, 100 KEEP'i delege eden bir kişiden on kat daha sık seçilmeyi bekleyebilir ve başarıyla yaptıkları işle orantılı olarak ödüllendirilecektir.
 
-Work opportunities are awarded randomly, but over time, and the amount of work a delegator is chosen for will be proportional to the amount of KEEP delegated. For example, a person delegating 1,000 KEEP could expect, over time, to be selected for work ten times as often as someone who delegates 100 KEEP, earning fees in proportion to the work they successfully perform.
+## Ödüller ve kısaltmalar
+Sahipler için KEEP tokenlerinin avantajı, devredilen hisse miktarına bağlıdır. Fikir, daha fazla hisseye sahip olanların daha fazla ödül alacağıdır.
 
-## Rewards and Slashing
-The benefit KEEP tokens confer to holders is relative to the amount of stake delegated and therefore to the user’s commitment to the network. The idea is that those with more “skin in the game” reap greater rewards. 
+Keep ve tBTC sistemlerindeki kısaltmanın amacı cezalandırmak değil, ağ güvenliğini kötü niyetli davranışlardan korumaktır.
+Ödüller ve indirim özellikleri hakkında daha fazla bilgi edinmek için bir sonraki bölüme geçin.
 
-Slashing in the Keep and tBTC systems is not designed to be punitive, and is rather to protect the security of the network from malicious behaviors. 
-
-Continue to the next section to learn more about the specifics of rewards and slashing.
-
-`Sourced from Keep Team's official documentation.`[Source](https://keep-network.gitbook.io/staking-documentation/)
+`Keep Team'in resmi belgelerinden alınmıştır.` [Kaynak] (https://keep-network.gitbook.io/staking-documentation/)
+`Çevirmen: milosl22`
